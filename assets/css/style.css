@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: linear-gradient(135deg,#737373,rgba(250, 177, 160,.8));
+}
+.container{
+    width: 95%;
+    margin: auto;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main .partOne{
+    width: 15%;
+}
+
+.main .frontCard{
+    width: 25%;
+    background-color:#fff;
+    box-shadow: 0 0.15rem 1.75rem 0 rgb(31 45 65 / 15%);
+    position: absolute;
+    top: 70px;
+    padding-bottom: 20px;
+    padding-left: 13px;
+    
+}
+.main .frontCard .intro-selfie{
+    padding-top: 35px;
+}
+.main .frontCard .intro-selfie img{
+    padding-left: 10px;
+}
+.main .frontCard .intro-selfie h1 {
+    padding: 10px 0;
+    color: #800000;
+    text-transform: uppercase;
+}
+.main .frontCard .intro-selfie h3 {
+    color: #800000;
+    font-style: italic;
+}
+.main .frontCard .contact{
+    margin-top: 70px;
+}
+.main .frontCard .contact h3{
+    color: #800000;
+    text-transform: uppercase;
+}
+.main .frontCard .contact ul{
+    list-style: none;
+}
+.main .frontCard .contact ul li{
+    padding-top: 7px;
+}
+.main .frontCard .contact ul li a{
+    text-decoration: none;
+    color: #800000;
+}
+.main .frontCard .contact ul li a i{
+    padding-right: 10px;
+}
+.main .partTwo{
+    width: 85%;
+    background-color: #fafafa;
+    padding-left: 170px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    padding-right: 25px;
+    color: #800000;
+    font-size: 18px;
+}
+.main .partTwo > div{
+    padding-bottom: 30px;
+    padding-left: 10px;
+    border-left: #DDD solid 1px;
+}
+.main .partTwo h3{
+    text-transform: uppercase;
+    color: #fab1a0;
+    padding-bottom: 7px;
+}
+.main .partTwo h3 i{
+    padding-right: 10px;
+}
+.main .partTwo ul{
+    list-style: none;
+}
+.main .partTwo .about p{
+    padding-left: 50px;
+
+}
+.main .partTwo li{
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+.main .partTwo .education ul li div{
+    font-weight: bold;
+    color: #fafafa;
+    display: inline;
+}
+.main .partTwo .education ul li div span{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    background-color:#fafafac2;
+    box-shadow: 0 0.15rem 1.75rem 0 rgb(31 45 65 / 10%);
+    color: #fab1a0;
+    border-radius: 50%;
+}
+.main .partTwo ul li p{
+    padding-left: 50px;
+    padding-top: 10px;
+    
+}
+.main .partTwo .skills ul li div{
+    font-weight: bold;
+    color: #fab1a0;
+    display: inline;
+}
